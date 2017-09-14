@@ -44,7 +44,7 @@ $("#pname").blur(function(){
 //判断手机号
 var flagF=null;
 $("#figure").blur(function(){
-	var reg= /^1(5|3|9)\d{9,}$/
+	var reg= /^1(5|3|9|8|7)\d{9,}$/
 	var figure=$("#figure").val();
 	if( reg.test(figure) ){
 			$("#s2").hide()

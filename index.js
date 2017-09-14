@@ -20,9 +20,9 @@
 			$(".sonpull").eq(index).show().siblings(".sonpull").hide();
 		})
 		//////
-		$("#pull-down").on("mouseleave",".lili",function(){
-			$(".bigbox").hide();
-		})
+//		$("#pull-down").on("mouseleave",".lili",function(){
+//			$(".bigbox").hide();
+//		})
 		/////
 		$(".bigbox").on("mouseleave",".sonpull",function(){
 			$(".sonpull").hide();
