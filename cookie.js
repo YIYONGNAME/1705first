@@ -2,7 +2,7 @@
 function setCookie(key,value,days){
 	var now = new Date();
 	now.setTime(now.getTime() + days*24*60*60*1000 ) 
-	document.cookie=key+"="+value + ";expires="+now+";path=/Metersbonwe";
+	document.cookie=key+"="+value + ";expires="+now;
 }
 function getCookie(key){
 	//如果cookie中有数据  才可以获取数据

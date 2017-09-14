@@ -12,7 +12,7 @@
 //			$(this).stop().animate({"opacity":0.7},500)
 //		})
 //	})
-		console.log(1111)
+	
 	$.ajax({
 		type:"get",
 		url:"1index22.json",
